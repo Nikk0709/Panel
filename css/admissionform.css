@@ -1,0 +1,45 @@
+table {
+    border: .5px solid black;
+    border-radius: 1rem;
+    border-right: .3rem solid #faebd7;
+    border-bottom: .3rem solid #faebd7;
+    width: 90%;
+   padding-left: 1rem;
+    margin:1rem; 
+    width: 70rem; 
+    margin-left: 8rem;
+}
+
+th{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+tr{
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+tr td {
+    padding-bottom: 1rem;
+}
+tr td input{
+   width:13rem;
+    height:1.5rem;
+   margin-left:1rem;
+
+}
+
+tr input {
+    margin-left: 2rem;
+}
+tr td select{
+    width:13rem;
+    margin-left:2rem; 
+    padding-left:2rem;
+    }
+    tr td span{
+        color:red; 
+        font-size:12px;
+    }
+ 

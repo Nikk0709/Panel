@@ -1,0 +1,35 @@
+table{
+    font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      text-align: left;
+      padding: 8px;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
+
+    tr {
+      border: 1px solid black;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pdetail {
+      display: flex;
+      padding: 8px 20px;
+      margin: 1rem;
+    }
+
+    .pdetail a {
+      font-weight: 600;
+      text-decoration:none;
+       color:black;
+    }

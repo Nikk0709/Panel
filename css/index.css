@@ -1,0 +1,13 @@
+.social-media a img{
+    width:2rem; 
+    height:2rem;
+  }
+  .image{
+    display: flex;
+    flex-direction:column; 
+    padding-left:10px;
+  }
+  .pcircle{
+   margin-left:2rem;
+    width: 2rem;
+  }

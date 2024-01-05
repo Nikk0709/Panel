@@ -1,0 +1,91 @@
+.container{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75rem;
+    background-color: lightgrey;
+    margin: .5rem;
+    margin-left: 2rem;
+    border: 1px solid black;    
+} 
+.container h1{
+    text-align: center;
+}
+/* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75rem;
+    background-color: lightgrey;
+    margin: .5rem;
+    margin-left: 2rem;
+    border: 1px solid black;
+} */
+
+td {
+    text-align: left;
+    padding: 8px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.content{
+    margin-left: 105px;
+    padding: 16px;
+    margin-top: 4rem;
+}
+.crse{
+height: 2rem;
+width: 25.2rem;
+margin-left:5.4rem;
+}
+.sess{
+    height: 2rem;
+    width: 25.2rem;
+    margin-left: 5rem;
+}
+.sem{
+    height:2rem;
+    width:25rem;
+    margin-left:4.4rem;
+}
+.semmonth{
+    height: 2rem;
+    width:25rem;
+    margin-left: 1.3rem;
+}
+.credit{
+    height: 2rem;
+    width:25rem;
+    margin-left:3.5rem;
+}
+.descrip{
+    height: 2rem;
+    width:25rem;
+    margin-left:3.5rem;
+}
+.sub{
+    background-color:white;
+    color:blue;
+    /* float: right; */
+    padding: 5px 15px;
+    /* margin-left: 20rem; */
+}
+.rest{
+    background-color:white;
+color:green;
+/* float: right; */
+padding: 5px 15px;
+/* margin-left: 15rem; */
+/* margin-right: 0px; */
+}
+.cncl{
+    background-color: white;
+color:red;
+/* float: right; */
+padding: 5px 15px;
+/* margin-left: 18rem; */
+/* margin-right: 20px; */
+}
+.button{
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 1.5rem;
+}

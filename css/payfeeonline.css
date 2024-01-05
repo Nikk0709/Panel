@@ -1,0 +1,45 @@
+*{
+    margin: 2px;
+    padding: 2px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+table tr td {
+    border: .5px solid black;
+}
+
+.outerbox {
+    border: .5px solid black;
+    background-color: #F5F5F5;
+}
+
+.feesonline td {
+    background-color: lightblue;
+}
+
+.online {
+    width: 15rem;
+    margin-left: 2.5rem;
+}
+
+.box {
+    background-color: darkgrey;
+}
+
+.remarks {
+    border: none;
+    background-color: #F5F5F5;
+    width: 2rem;
+    }
+    .btn input{
+        background-color:lightblue;
+         height:30px; 
+         width:10rem;
+    }

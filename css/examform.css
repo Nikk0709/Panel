@@ -1,0 +1,43 @@
+body{
+    background-color: lightgrey;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.per_cred{
+    display: flex;
+    flex-direction: row;
+}
+
+.per_label div{
+    width: 15rem;
+    margin-top: .5rem;
+}
+.per_cred .per_label label{
+    width: 6rem;
+}
+.per_input input{
+    width: 20rem;
+    border-radius: 2rem;
+    margin-bottom: .3rem;
+    height: 1.3rem;
+}
+
+table tr td input{
+    width: 20rem;
+    border-radius: 2rem;
+    margin-bottom: .3rem;
+    height: 1.3rem;
+}
+
+.uploadfile{
+    margin: 2rem 0;
+}

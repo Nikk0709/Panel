@@ -1,0 +1,140 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+body{
+    padding: 2rem;
+}
+
+.img-area {
+  position: relative;
+  height: 240px;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.img-area .icon {
+  font-size: 100px;
+}
+
+.img-area h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.img-area p{
+  color: #999;
+}
+
+.img-area p span {
+  font-weight: 600;
+}
+
+.img-area img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 100;
+}
+
+.img-area::before{
+   content: attr(data-img);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, .5);
+   color: #fff;
+   font-weight: 500;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   pointer-events: none;
+   opacity: 0;
+   transition: all .3s ease;
+   z-index: 200;
+}
+
+.img-area.active:hover::before {
+  opacity: 1;
+}
+
+.select-img {
+  display: block;
+  padding: 4px 8px;
+  border-radius: .5rem;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.registerbox h2{
+    font-size: 2rem;
+}
+.registerbox {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid #ccc;
+    background-color: #f2f2f2;
+  }
+  
+  .registerbox h2 {
+    text-align: center;
+  }
+  
+  .register {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .register label {
+    font-weight: bold;
+  }
+  
+  .register input,
+  .register select {
+    width: 20%;
+    padding: 5px;
+  }
+  
+  .register input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .register input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .register input:required:invalid,
+  .register select:required:invalid {
+    border: 1px solid ;
+  }
+  
+  .register input:required:valid,
+  .register select:required:valid {
+    border: 1px solid #ccc;
+  }
+
+  .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }

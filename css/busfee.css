@@ -1,0 +1,17 @@
+table {
+    background: lightgrey;
+    border: .5px solid black;
+    width: 60rem;
+    margin-left: 16rem;
+}
+
+tr th {
+    display: flex;
+    align-items: left;
+    padding: .5rem;
+    background-color: #fff;
+}
+
+tr td{
+    background-color: #fff;
+}
